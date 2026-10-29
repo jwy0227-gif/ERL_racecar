@@ -1,0 +1,12 @@
+[project]
+name = "erl-racecar"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "hydrax",
+    "mujoco==3.8.0",
+    "mujoco-mjx==3.8.0",
+]
+
+[tool.uv.sources]
+hydrax = { git = "https://github.com/vincekurtz/hydrax.git" }
